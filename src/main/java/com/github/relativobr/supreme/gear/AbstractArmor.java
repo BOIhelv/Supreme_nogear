@@ -15,7 +15,7 @@ import javax.annotation.ParametersAreNonnullByDefault;
 import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 
-public class AbstractArmor extends SlimefunArmorPiece implements ProtectiveArmor, Soulbound, NotPlaceable {
+public class AbstractArmor extends SlimefunArmorPiece implements ProtectiveArmor, NotPlaceable {
 
   @ParametersAreNonnullByDefault
   private AbstractArmor(SlimefunItemStack item, ItemStack[] recipe) {
