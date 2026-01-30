@@ -90,7 +90,7 @@ public class EnchantsAndEffectsUtil {
                 lore.add("");
             }
 
-            lore.add(ChatColor.AQUA + "No Longer Soulbound!");
+            lore.add(ChatColor.AQUA + "No longer soulbound!");
 
             // find path
             String itemPath = getNewIdSupremeLegacy(item.getItemId()).toLowerCase();
